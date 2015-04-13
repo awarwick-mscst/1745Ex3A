@@ -1,0 +1,34 @@
+/* CSS Document */
+
+section {
+    float: left;
+    width: 64%;
+    margin: 0em 0em 0em 3em;
+}
+
+aside {
+float: left;
+width: 25%;
+min-width:15em;
+border-left: .2em solid #2d04ff;
+border-bottom: .2em solid #2d04ff;
+border-radius: 0em 0em 0em 3.2em;
+-moz-border-radius: 0em 0em 0em 3.2em;
+-webkit-border-bottom-left-radius: 3.2em;
+}
+
+.wordwrapimage {
+	float: right;
+	width:8em;
+	height:8em;
+}
+footer {
+    padding: 0.25em;
+    width:90%;
+}
+
+.shop-image {
+	float: left;
+	width:8em;
+	height:8em;
+}

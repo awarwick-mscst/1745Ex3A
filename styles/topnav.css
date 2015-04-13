@@ -1,0 +1,82 @@
+﻿nav {
+    position: absolute;
+    top: 5em;
+    left: 3em;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+
+#menu1 {
+    overflow: hidden; 
+    width: 11.85em; height: 2.5em; 
+    float: left;
+}
+#menu1:hover {
+    height: 21em;
+}
+#menu1 {
+    -webkit-transition: 200ms ease-in;
+    -moz-transition: 200ms ease-in;
+    -o-transition: 200ms ease-in;
+    -ms-transition: 200ms ease-in;
+    transition: 200ms ease-in;
+}
+#menu2 {
+    overflow: hidden; 
+    width: 10em; height: 2.5em; 
+    float: left;
+}
+#menu2:hover {
+    height: 21em;
+}
+#menu2 {
+    -webkit-transition: 200ms ease-in;
+    -moz-transition: 200ms ease-in;
+    -o-transition: 200ms ease-in;
+    -ms-transition: 200ms ease-in;
+    transition: 200ms ease-in;
+}
+ul.topnav {
+	list-style: none;
+	padding: 0 0.25em;	
+	margin: 0;
+	float: left;
+	background: rgba(196,217,255,1.00);
+	font-size: 1em;
+}
+ul.topnav li {
+    margin: 0;
+    position: relative; /*--Declare X and Y axis base--*/
+    list-style: none;
+    top: 1px;
+    left: 0px;
+}
+ul.topnav li span {
+    padding: .5em 1.5em .5em 1.5em;
+    color: black;
+    display: block;
+    text-decoration: none;
+    float: left;
+    list-style: none;
+}
+ul.topnav li a {
+    padding: .5em 1.5em .5em 1.5em;
+    color: black;
+    display: block;
+    text-decoration: none;
+    float: left;
+    list-style: none;
+}
+ul.topnav li a:hover{
+    background: blue;
+    color:rgba(196,217,255,1.00);
+}
+ul.topnav li a {
+    -webkit-transition: 200ms linear;
+    -moz-transition: 200ms linear;
+    -o-transition: 200ms linear;
+    -ms-transition: 200ms linear;
+    transition: 200ms linear;
+}
